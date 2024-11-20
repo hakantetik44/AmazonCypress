@@ -1,0 +1,23 @@
+{
+  "name": "AmazonCypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:chrome": "cypress run --browser chrome",
+    "cy:open": "cypress open --browser chrome",
+    "test": "cypress run --browser chrome --headless",
+    "generate-report": "cypress run --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.15.2"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "pdfkit": "^0.15.1"
+  }
+}

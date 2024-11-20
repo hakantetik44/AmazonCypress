@@ -1,0 +1,24 @@
+{
+  "execution": {
+    "startTime": "2024-11-17T18:22:15.914Z",
+    "endTime": "2024-11-17T18:22:37.129Z",
+    "duration": 21215
+  },
+  "environment": {
+    "browser": "chrome",
+    "browserVersion": "131.0.6778.70",
+    "viewport": "1000x660",
+    "platform": "darwin",
+    "cypressVersion": "13.15.2",
+    "nodeVersion": ""
+  },
+  "performance": {
+    "averagePageLoadTime": 6900,
+    "averageApiResponseTime": null
+  },
+  "results": {
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0
+  }
+}
